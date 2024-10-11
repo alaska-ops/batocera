@@ -1,5 +1,5 @@
 # batocera-fightcade
-
+### UNDER MAINTENACE
 <b>THIS PACKAGE PROVIDES FIGHTCADE 2.1.45 (latest as of october 2024) <br>
 </b><i>and all dependencies for Batocera 35/36 and up (not tested on v40) </i> <br>
 <br>
