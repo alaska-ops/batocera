@@ -9,7 +9,7 @@
 <br>
 <b>INSTALLATION</b> <br>
 </b><i>Run this command in xterm or ssh: </font></b></i><br>
-```   curl -L (https://github.com/alaska-ops/batocera-fightcade/blob/main/installer/fightcade.sh)   ``` <br>
+```   curl -L 'https://github.com/alaska-ops/batocera-fightcade/raw/main/installer/fightcade.sh' --output curloutput   ``` <br>
 installer/fightcade.sh
 <br>
 <br>
