@@ -10,6 +10,7 @@
 <b>INSTALLATION</b> <br>
 </b><i>Run this command in xterm or ssh: </font></b></i><br>
 ```   curl -L fightcade.batocera.pro | bash   ``` <br>
+installer/fightcade.sh
 <br>
 <br>
 <br>
