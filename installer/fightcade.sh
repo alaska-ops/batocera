@@ -50,7 +50,7 @@ fightcade=/userdata/system/pro/fightcade; mkdir -p $fightcade/extras 2>/dev/null
 tmp=/tmp/batocera-fightcade; rm -rf $tmp 2>/dev/null; mkdir -p /tmp 2>/dev/null
 # --------------------------------------------------------------------
 # -- prepare dependencies for this app and the installer: 
-url=https://raw.githubusercontent.com/uureel/batocera-fightcade/main/installer
+url=https://raw.githubusercontent.com/alaska-ops/batocera-fightcade/main/installer
 wget -q -O $tmp/installer.sh $url/fightcade.sh 2>/dev/null 
 dos2unix $tmp/installer.sh 2>/dev/null; chmod a+x $tmp/installer.sh 2>/dev/null
 wget -q -O /tmp/libselinux.so.1 $url/libselinux.so.1 2>/dev/null 
@@ -87,23 +87,23 @@ dl=/userdata/system/pro/fightcade/extras/downloads
 rm -rf $dl 2>/dev/null; mkdir $dl 2>/dev/null; cd $dl 
 echo
 echo -e "DOWNLOADING FIGHTCADE [1/9] . . ."
-curl --progress-bar --remote-name --location https://github.com/uureel/batocera-fightcade/raw/main/package/fightcade.tar.gz.partaa
+curl --progress-bar --remote-name --location https://github.com/alaska-ops/batocera-fightcade/raw/main/package/fightcade.tar.gz.partaa
 echo -e "DOWNLOADING FIGHTCADE [2/9] . . ."
-curl --progress-bar --remote-name --location https://github.com/uureel/batocera-fightcade/raw/main/package/fightcade.tar.gz.partab
+curl --progress-bar --remote-name --location https://github.com/alaska-ops/batocera-fightcade/raw/main/package/fightcade.tar.gz.partab
 echo -e "DOWNLOADING FIGHTCADE [3/9] . . ."
-curl --progress-bar --remote-name --location https://github.com/uureel/batocera-fightcade/raw/main/package/fightcade.tar.gz.partac
+curl --progress-bar --remote-name --location https://github.com/alaska-ops/batocera-fightcade/raw/main/package/fightcade.tar.gz.partac
 echo -e "DOWNLOADING FIGHTCADE [4/9] . . ."
-curl --progress-bar --remote-name --location https://github.com/uureel/batocera-fightcade/raw/main/package/fightcade.tar.gz.partad
+curl --progress-bar --remote-name --location https://github.com/alaska-ops/batocera-fightcade/raw/main/package/fightcade.tar.gz.partad
 echo -e "DOWNLOADING FIGHTCADE [5/9] . . ."
-curl --progress-bar --remote-name --location https://github.com/uureel/batocera-fightcade/raw/main/package/fightcade.tar.gz.partae
+curl --progress-bar --remote-name --location https://github.com/alaska-ops/batocera-fightcade/raw/main/package/fightcade.tar.gz.partae
 echo -e "DOWNLOADING FIGHTCADE [6/9] . . ."
-curl --progress-bar --remote-name --location https://github.com/uureel/batocera-fightcade/raw/main/package/fightcade.tar.gz.partaf
+curl --progress-bar --remote-name --location https://github.com/alaska-ops/batocera-fightcade/raw/main/package/fightcade.tar.gz.partaf
 echo -e "DOWNLOADING FIGHTCADE [7/9] . . ."
-curl --progress-bar --remote-name --location https://github.com/uureel/batocera-fightcade/raw/main/package/fightcade.tar.gz.partag
+curl --progress-bar --remote-name --location https://github.com/alaska-ops/batocera-fightcade/raw/main/package/fightcade.tar.gz.partag
 echo -e "DOWNLOADING FIGHTCADE [8/9] . . ."
-curl --progress-bar --remote-name --location https://github.com/uureel/batocera-fightcade/raw/main/package/fightcade.tar.gz.partah
+curl --progress-bar --remote-name --location https://github.com/alaska-ops/batocera-fightcade/raw/main/package/fightcade.tar.gz.partah
 echo -e "DOWNLOADING FIGHTCADE [9/9] . . ."
-curl --progress-bar --remote-name --location https://github.com/uureel/batocera-fightcade/raw/main/package/fightcade.tar.gz.partai
+curl --progress-bar --remote-name --location https://github.com/alaska-ops/batocera-fightcade/raw/main/package/fightcade.tar.gz.partai
 #
 # check downloads integrity 
 p1=$dl/fightcade.tar.gz.partaa
@@ -227,7 +227,7 @@ chmod a+x ~/custom.sh 2>/dev/null
 # 
 # get updated files:
 # --- 
-url=https://raw.githubusercontent.com/uureel/batocera-fightcade/main/installer
+url=https://raw.githubusercontent.com/alaska-ops/batocera-fightcade/main/installer
 # startup 
 wget -q -O /userdata/system/pro/fightcade/extras/startup.sh $url/startup.sh 2>/dev/null 
 dos2unix /userdata/system/pro/fightcade/extras/startup.sh 1>/dev/null 2>/dev/null
@@ -253,14 +253,14 @@ chmod a+x /userdata/system/pro/fightcade/extras/unwine.sh 2>/dev/null
 #dos2unix /userdata/system/pro/fightcade/extras/wine.sh 2>/dev/null
 #chmod a+x /userdata/system/pro/fightcade/extras/wine.sh 2>/dev/null
 # pad2key 
-url=https://raw.githubusercontent.com/uureel/batocera-fightcade/main/installer
+url=https://raw.githubusercontent.com/alaska-ops/batocera-fightcade/main/installer
 wget -q -O /userdata/roms/ports/Fightcade2.sh.keys $url/Fightcade2.sh.keys 2>/dev/null 
 # 
 #/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
 #\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 #
 # + additional updates/fixes for v37: 
-url=https://github.com/uureel/batocera-fightcade/raw/main/installer
+url=https://github.com/alaska-ops/batocera-fightcade/raw/main/installer
 wget -q -O /userdata/system/pro/fightcade/extras/wine.sh $url/wine.sh 2>/dev/null
   dos2unix /userdata/system/pro/fightcade/extras/wine.sh 1>/dev/null 2>/dev/null 
   chmod a+x /userdata/system/pro/fightcade/extras/wine.sh 2>/dev/null 
