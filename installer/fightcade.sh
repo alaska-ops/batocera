@@ -87,8 +87,6 @@ dl=/userdata/system/pro/fightcade/extras/downloads
 rm -rf $dl 2>/dev/null; mkdir $dl 2>/dev/null; cd $dl 
 echo
 echo -e "DOWNLOADING FIGHTCADE [1/9] . . ."
-curl --progress-bar --remote-name --location https://github.com/alaska-ops/batocera-fightcade/raw/main/package/fightcade.tar.gz.partaj
-echo -e "DOWNLOADING FIGHTCADE [1/9] . . ."
 curl --progress-bar --remote-name --location https://github.com/alaska-ops/batocera-fightcade/raw/main/package/fightcade.tar.gz.partaa
 echo -e "DOWNLOADING FIGHTCADE [1/9] . . ."
 curl --progress-bar --remote-name --location https://github.com/alaska-ops/batocera-fightcade/raw/main/package/fightcade.tar.gz.partab
@@ -106,6 +104,8 @@ echo -e "DOWNLOADING FIGHTCADE [1/9] . . ."
 curl --progress-bar --remote-name --location https://github.com/alaska-ops/batocera-fightcade/raw/main/package/fightcade.tar.gz.partah
 echo -e "DOWNLOADING FIGHTCADE [1/9] . . ."
 curl --progress-bar --remote-name --location https://github.com/alaska-ops/batocera-fightcade/raw/main/package/fightcade.tar.gz.partai
+echo -e "DOWNLOADING FIGHTCADE [1/9] . . ."
+curl --progress-bar --remote-name --location https://github.com/alaska-ops/batocera-fightcade/raw/main/package/fightcade.tar.gz.partaj
 echo -e "DOWNLOADING FIGHTCADE [1/9] . . ."
 curl --progress-bar --remote-name --location https://github.com/alaska-ops/batocera-fightcade/raw/main/package/fightcade.tar.gz.partak
 echo -e "DOWNLOADING FIGHTCADE [1/9] . . ."
@@ -168,6 +168,14 @@ echo -e "DOWNLOADING FIGHTCADE [1/9] . . ."
 curl --progress-bar --remote-name --location https://github.com/alaska-ops/batocera-fightcade/raw/main/package/fightcade.tar.gz.partbn
 echo -e "DOWNLOADING FIGHTCADE [1/9] . . ."
 curl --progress-bar --remote-name --location https://github.com/alaska-ops/batocera-fightcade/raw/main/package/fightcade.tar.gz.partbo
+echo -e "DOWNLOADING FIGHTCADE [1/9] . . ."
+curl --progress-bar --remote-name --location https://github.com/alaska-ops/batocera-fightcade/raw/main/package/fightcade.tar.gz.partbp
+echo -e "DOWNLOADING FIGHTCADE [1/9] . . ."
+curl --progress-bar --remote-name --location https://github.com/alaska-ops/batocera-fightcade/raw/main/package/fightcade.tar.gz.partbq
+echo -e "DOWNLOADING FIGHTCADE [1/9] . . ."
+curl --progress-bar --remote-name --location https://github.com/alaska-ops/batocera-fightcade/raw/main/package/fightcade.tar.gz.partbr
+echo -e "DOWNLOADING FIGHTCADE [1/9] . . ."
+curl --progress-bar --remote-name --location https://github.com/alaska-ops/batocera-fightcade/raw/main/package/fightcade.tar.gz.partbs
 # check downloads integrity 
 #p1=$dl/fightcade.tar.gz.partaa
 #p2=$dl/fightcade.tar.gz.partab
